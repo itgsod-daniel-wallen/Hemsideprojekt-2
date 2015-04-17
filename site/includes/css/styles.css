@@ -1,0 +1,135 @@
+
+body {
+    padding-top: 100px;
+}
+
+#matratter {
+
+}
+
+#warning {
+    color: #cf0500;
+}
+
+#krav {
+    margin-left: 63%;
+}
+
+.header {
+    background-color: #F5F5F5;
+    color: #5dda6c;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
+
+#video {
+    margin-top: 20px;
+}
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#navbar() {
+    float: left;
+}
+
+#logocontainer {
+    float: left;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+#menybutton {
+   margin-right: 20px;
+   margin-top: 11px;
+}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel .item {
+    height: 400px;
+}
+
+#slide1 {
+   background: url("../../images/carousel_medium01.jpg") top center no-repeat;
+}
+
+#slide2 {
+   background: url("../../images/carousel_medium02.jpg") top center no-repeat;
+}
+
+#slide1_text {
+    font-size: 26px;
+    color: black;
+    margin-bottom: 27px;
+}
+
+#slide2_text {
+    font-size: 26px;
+    color: black;
+    margin-bottom: 27px;
+}
+
+#pluppar {
+    margin-bottom: -13px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    #myCarousel .item {
+        height: 310px;
+    }
+
+    #slide1 {
+        background: url("../../images/carousel_small01.jpg") top center no-repeat;
+    }
+
+    #slide2 {
+        background: url("../../images/carousel_small02.jpg") top center no-repeat;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #myCarousel .item {
+        height: 502px;
+    }
+
+    #slide1 {
+        background: url("../../images/carousel_large01.jpg") top center no-repeat;
+    }
+
+    #slide2 {
+        background: url("../../images/carousel_large02.jpg") top center no-repeat;
+    }
+}
