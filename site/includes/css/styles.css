@@ -60,6 +60,11 @@ body {
    margin-right: 20px;
    margin-top: 11px;
 }
+
+.navbar-default {
+    background-color: #607F26;
+    border-color: #607F26;
+}
    
 /* --------------------------------------
    Carousel
