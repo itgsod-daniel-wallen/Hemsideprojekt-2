@@ -95,7 +95,7 @@ body {
 }
 
 #slide1 {
-   background: url("../../images/carousel_medium01.jpg") top center no-repeat;
+   background: url("../../images/carousel_medium01.gif") top center no-repeat;
 }
 
 #slide2 {
@@ -148,7 +148,7 @@ body {
     }
 
     #slide1 {
-        background: url("../../images/carousel_small01.jpg") top center no-repeat;
+        background: url("../../images/carousel_small01.gif") top center no-repeat;
     }
 
     #slide2 {
@@ -163,7 +163,7 @@ body {
     }
 
     #slide1 {
-        background: url("../../images/carousel_large01.jpg") top center no-repeat;
+        background: url("../../images/carousel_large01.gif") top center no-repeat;
     }
 
     #slide2 {
