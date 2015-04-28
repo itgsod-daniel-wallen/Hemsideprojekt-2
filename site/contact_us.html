@@ -54,7 +54,9 @@
         <div class="well well-sm">
             <form class="form-horizontal" method="post">
                 <fieldset>
+
                     <legend class="text-center header">Söka Jobb</legend>
+
                     <div class="form-group">
                         <div class="col-md-10 col-md-offset-1">
                             <input id="fname" name="name" type="text" placeholder="Förnamn" class="form-control">
@@ -92,8 +94,17 @@
 
                     <div class="form-group">
                         <div class="col-md-12 text-center">
-                            <button type="submit" class="btn btn-success btn-lg">Skicka</button>
+                            <button type="submit" id="submit" class="btn btn-success btn-lg">Skicka</button>
                         </div>
+                    </div>
+
+                    <div class="alert alert-success" role="alert" id="alert">
+                        <strong>
+                            Skickat!
+                        </strong>
+
+                        Din ansökan har skickats iväg.
+
                     </div>
 
                 </fieldset>

@@ -137,6 +137,11 @@ body {
    Formulär
    -------------------------------------- */
 
+.alert-success {
+    display: none;
+}
+
+
 #formular {
     -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow:    0px 6px 13px 0px rgba(0, 0, 0, 0.35);
@@ -147,6 +152,7 @@ body {
     color: #000000;
     background-color: #84CC00;
 }
+
 
 /* --------------------------------------
    Media Queries

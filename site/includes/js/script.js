@@ -1,10 +1,11 @@
-/*
+$(function() {
 
-My Custom JS
-============
+    $('#submit').click(function(e) {
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+        e.preventDefault();
 
-*/
+        $('#alert').slideDown();
+
+    });
+
+});
