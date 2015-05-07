@@ -28,6 +28,18 @@ body {
     padding: 10px;
 }
 
+#mat {
+    float: right;
+    margin-left: 49%;
+    margin-right: 49%;
+    margin-top: -20px;
+}
+
+#mat-submit {
+    float: right;
+    margin-top: -28px;
+}
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */

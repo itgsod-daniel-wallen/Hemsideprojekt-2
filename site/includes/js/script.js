@@ -9,3 +9,15 @@ $(function() {
     });
 
 });
+
+$(function() {
+
+    $('#mat-submit').click(function(e) {
+
+        e.preventDefault();
+
+        $('#mat-alert').slideDown();
+
+    });
+
+});
