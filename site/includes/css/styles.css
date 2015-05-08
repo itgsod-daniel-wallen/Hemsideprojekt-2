@@ -40,6 +40,13 @@ body {
     margin-top: -28px;
 }
 
+#schema-knappar {
+    background-color: #607F26;
+    -webkit-box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow:    0px 6px 13px 0px rgba(0, 0, 0, 0.35);
+    box-shadow:         0px 6px 13px 0px rgba(0, 0, 0, 0.35);
+}
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */
