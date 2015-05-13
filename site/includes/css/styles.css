@@ -117,27 +117,27 @@ body {
 }
 
 #schema-knappar > li > a {
-    color: #84CC00;
+    color: #84CC00 !important;
 }
 
 #schema-knappar > li > a:hover,
 #schema-knappar > li > a:focus {
-    color: #C0FF4C;
+    color: #C0FF4C !important;
     background-color: transparent !important;
 }
 
 #schema-knappar > .active > a,
 #schema-knappar > .active > a:hover,
 #schema-knappar > .active > a:focus {
-    color: #555;
-    background-color: #C0FF4C;
+    color: #555 !important;
+    background-color: #C0FF4C !important;
 }
 
 #schema-knappar > .open > a,
 #schema-knappar > .open > a:hover,
 #schema-knappar > .open > a:focus {
-    color: #555;
-    background-color: #C0FF4C;
+    color: #555 !important;
+    background-color: #C0FF4C !important;
 }
 
 #schema-bilder {
