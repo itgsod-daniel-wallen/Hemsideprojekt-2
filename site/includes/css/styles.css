@@ -240,6 +240,8 @@ body {
     }
 }
 
+
+
 /* Large desktop */
 @media (min-width: 1200px) {
     #myCarousel .item {
@@ -252,5 +254,46 @@ body {
 
     #slide2 {
         background: url("../../images/carousel_large02.jpg") top center no-repeat;
+    }
+
+    #schema-medium-bild {
+        display: none;
+    }
+
+    #schema-small-bild {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #schema-large-bild {
+        display: none;
+    }
+
+    #schema-small-bild {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #schema-large-bild {
+        display: none;
+    }
+
+    #schema-medium-bild {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #schema-large-bild {
+        display: none;
+    }
+
+    #schema-medium-bild {
+        display: none;
+    }
+    #schema-small-bild {
+        width: 100%;
     }
 }
