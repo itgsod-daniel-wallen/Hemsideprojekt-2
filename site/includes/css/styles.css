@@ -104,9 +104,8 @@ body {
 }
 
 /* --------------------------------------
-   schema knappar
+   schema
    -------------------------------------- */
-
 
 #schema-knappar {
     background-color: #607F26;
@@ -118,27 +117,34 @@ body {
 }
 
 #schema-knappar > li > a {
-    color: #84CC00 !important;
+    color: #84CC00;
 }
 
 #schema-knappar > li > a:hover,
 #schema-knappar > li > a:focus {
-    color: #C0FF4C !important;
+    color: #C0FF4C;
     background-color: transparent !important;
 }
 
 #schema-knappar > .active > a,
 #schema-knappar > .active > a:hover,
 #schema-knappar > .active > a:focus {
-    color: #555 !important;
-    background-color: #C0FF4C !important;
+    color: #555;
+    background-color: #C0FF4C;
 }
 
 #schema-knappar > .open > a,
 #schema-knappar > .open > a:hover,
 #schema-knappar > .open > a:focus {
-    color: #555 !important;
-    background-color: #C0FF4C !important;
+    color: #555;
+    background-color: #C0FF4C;
+}
+
+#schema-bilder {
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow:    0px 0px 17px 0px rgba(0, 0, 0, 0.79);
+    box-shadow:         0px 0px 17px 0px rgba(0, 0, 0, 0.79);
 }
 
 /* --------------------------------------
