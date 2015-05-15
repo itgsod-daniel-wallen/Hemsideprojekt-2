@@ -39,6 +39,40 @@ body {
     float: right;
     margin-top: -28px;
 }
+/* --------------------------------------
+   Sprite Sheet
+   -------------------------------------- */
+
+.sprite {
+    background: url('../../images/sprite.png') no-repeat top left; width: 21px; height: 24px;
+}
+
+.sprite.mat_ikon {
+    background-position: 0 0;
+    width: 16px;
+    height: 23px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sprite.form_ikon {
+    background-position: 0 -33px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sprite.home_ikon {
+    background-position: 0 -67px;
+    width: 24px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sprite.schema_ikon {
+    background-position: 0 -101px;
+    float: left;
+    margin-right: 10px;
+}
 
 /* --------------------------------------
    Navbar
